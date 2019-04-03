@@ -7,7 +7,8 @@ import WebBase.BasePage;
 
 public class EmailManagementIdentifier extends BasePage {
 
-	/* This class content all the locators from Email manage tab */
+	/* This class content all the locators from Email manage tab */ 
+	//so test case are in test package
 
 	@FindBy(xpath = "//*[@id=\"navigation\"]/ul/li[3]/a/span")
 	public WebElement EmailTab;
