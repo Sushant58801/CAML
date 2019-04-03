@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="124748" started-at="2019-03-05T11:45:19Z" finished-at="2019-03-05T11:47:24Z">
+    <groups>
+    </groups>
+    <test name="Login" duration-ms="13448" started-at="2019-03-05T11:45:19Z" finished-at="2019-03-05T11:45:32Z">
+      <class name="test.java.LoginTest">
+        <test-method status="PASS" signature="checkloginpage()[pri:1, instance:test.java.LoginTest@d5b810e]" name="checkloginpage" duration-ms="3792" started-at="2019-03-05T17:15:19Z" finished-at="2019-03-05T17:15:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkloginpage -->
+        <test-method status="PASS" signature="invalidLogin()[pri:2, instance:test.java.LoginTest@d5b810e]" name="invalidLogin" duration-ms="3426" started-at="2019-03-05T17:15:23Z" finished-at="2019-03-05T17:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method status="PASS" signature="AdminvalidLogin()[pri:3, instance:test.java.LoginTest@d5b810e]" name="AdminvalidLogin" duration-ms="6078" started-at="2019-03-05T17:15:26Z" finished-at="2019-03-05T17:15:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdminvalidLogin -->
+      </class> <!-- test.java.LoginTest -->
+    </test> <!-- Login -->
+    <test name="supplier" duration-ms="66559" started-at="2019-03-05T11:45:33Z" finished-at="2019-03-05T11:46:39Z">
+      <class name="test.java.supplierTest">
+        <test-method status="PASS" signature="CreateNewSupplier()[pri:1, instance:test.java.supplierTest@31fa1761]" name="CreateNewSupplier" duration-ms="20569" started-at="2019-03-05T17:15:33Z" finished-at="2019-03-05T17:15:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewSupplier -->
+        <test-method status="PASS" signature="CheckLOGforcreation()[pri:2, instance:test.java.supplierTest@31fa1761]" name="CheckLOGforcreation" duration-ms="3069" started-at="2019-03-05T17:15:53Z" finished-at="2019-03-05T17:15:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLOGforcreation -->
+        <test-method status="PASS" signature="EditNewSupplier()[pri:3, instance:test.java.supplierTest@31fa1761]" name="EditNewSupplier" duration-ms="13661" started-at="2019-03-05T17:15:56Z" finished-at="2019-03-05T17:16:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditNewSupplier -->
+        <test-method status="PASS" signature="CheckLOGformodification()[pri:4, instance:test.java.supplierTest@31fa1761]" name="CheckLOGformodification" duration-ms="3037" started-at="2019-03-05T17:16:10Z" finished-at="2019-03-05T17:16:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLOGformodification -->
+        <test-method status="PASS" signature="SendMailToSupplier()[pri:5, instance:test.java.supplierTest@31fa1761]" name="SendMailToSupplier" duration-ms="12354" started-at="2019-03-05T17:16:13Z" finished-at="2019-03-05T17:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SendMailToSupplier -->
+        <test-method status="PASS" signature="DeleteSupplier()[pri:6, instance:test.java.supplierTest@31fa1761]" name="DeleteSupplier" duration-ms="10612" started-at="2019-03-05T17:16:25Z" finished-at="2019-03-05T17:16:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteSupplier -->
+        <test-method status="PASS" signature="CheckLOGfordelete()[pri:7, instance:test.java.supplierTest@31fa1761]" name="CheckLOGfordelete" duration-ms="3244" started-at="2019-03-05T17:16:36Z" finished-at="2019-03-05T17:16:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLOGfordelete -->
+      </class> <!-- test.java.supplierTest -->
+    </test> <!-- supplier -->
+    <test name="user" duration-ms="20723" started-at="2019-03-05T11:46:39Z" finished-at="2019-03-05T11:47:00Z">
+      <class name="test.java.UserTest">
+        <test-method status="PASS" signature="CreateNewUser()[pri:1, instance:test.java.UserTest@6253c26]" name="CreateNewUser" duration-ms="11748" started-at="2019-03-05T17:16:39Z" finished-at="2019-03-05T17:16:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewUser -->
+        <test-method status="PASS" signature="EditNewUser()[pri:2, instance:test.java.UserTest@6253c26]" name="EditNewUser" duration-ms="8971" started-at="2019-03-05T17:16:51Z" finished-at="2019-03-05T17:17:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditNewUser -->
+      </class> <!-- test.java.UserTest -->
+    </test> <!-- user -->
+    <test name="email" duration-ms="23698" started-at="2019-03-05T11:47:00Z" finished-at="2019-03-05T11:47:24Z">
+      <class name="test.java.EmailManagerTest">
+        <test-method status="PASS" signature="getReporter()[pri:0, instance:test.java.EmailManagerTest@4310d43]" name="getReporter" is-config="true" duration-ms="1082" started-at="2019-03-05T17:15:18Z" finished-at="2019-03-05T17:15:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getReporter -->
+        <test-method status="PASS" signature="CreateEmail()[pri:1, instance:test.java.EmailManagerTest@4310d43]" name="CreateEmail" duration-ms="13703" started-at="2019-03-05T17:17:00Z" finished-at="2019-03-05T17:17:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateEmail -->
+        <test-method status="PASS" signature="EditEmail()[pri:2, instance:test.java.EmailManagerTest@4310d43]" name="EditEmail" duration-ms="4840" started-at="2019-03-05T17:17:14Z" finished-at="2019-03-05T17:17:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditEmail -->
+        <test-method status="PASS" signature="LogOut()[pri:3, instance:test.java.EmailManagerTest@4310d43]" name="LogOut" duration-ms="5152" started-at="2019-03-05T17:17:19Z" finished-at="2019-03-05T17:17:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+        <test-method status="PASS" signature="closeextend()[pri:0, instance:test.java.EmailManagerTest@4310d43]" name="closeextend" is-config="true" duration-ms="3080" started-at="2019-03-05T17:17:24Z" finished-at="2019-03-05T17:17:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeextend -->
+      </class> <!-- test.java.EmailManagerTest -->
+    </test> <!-- email -->
+  </suite> <!-- Suite -->
+</testng-results>
