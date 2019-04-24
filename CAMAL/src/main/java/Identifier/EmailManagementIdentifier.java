@@ -9,7 +9,7 @@ public class EmailManagementIdentifier extends BasePage {
 
 	/* This class content all the locators from Email manage tab */ 
 	//so test case are in test package
-//test23333
+
 	//uytutuy
 	@FindBy(xpath = "//*[@id=\"navigation\"]/ul/li[3]/a/span")
 	public WebElement EmailTab;
